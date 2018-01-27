@@ -29,7 +29,8 @@ class CoinSetup extends Component {
                     </div>
                     <div className="public-equity"> 
                         <p>
-                            <span>{'Public Equity Reserve '}</span>
+                            <span>{'Public Equity Offering '}</span>
+                            <span className="sub-label">{'Ownership stake that public will be able to buy in coins' }</span>
                             <span className="equity-percentage">{this.state.secondSlider}{' %'}</span>
                         </p>    
                         <Slider
@@ -51,10 +52,10 @@ class CoinSetup extends Component {
                         </SelectField>
                         <br />
                     </div>
-                    <div>
+                    <div className="coin-inputs">
                       <TextField hintText="Coin Name (i.e. Ether)"/><br />
                     </div>
-                    <div>
+                    <div className="coin-inputs">
                       <TextField hintText="Coin Acronym (i.e. ETH)"/><br />
                     </div>
                 </div>

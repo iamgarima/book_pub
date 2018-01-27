@@ -94,6 +94,7 @@ body {
   border-color: transparent;
   background-color: #6C67BC;
   color: white;
+  border-radius: 2px;
 }
 
 .App-first button a {
@@ -133,7 +134,7 @@ body {
   padding: 40px 40px;
   width: 60%;
   margin: auto;
-  background-color: #7986cb; 
+  background-color: #6c67bc; 
   color: white;
   border-radius: 6px;
 }
@@ -152,8 +153,9 @@ body {
   padding: 10px 60px;
   outline: none;
   border-color: transparent;
-  background-color: #7986cb;
+  background-color: #6c67bc;
   color: white;
+  border-radius: 2px;
 }
 
 .gov p {
@@ -162,8 +164,12 @@ body {
 
 .gov > div {
   float: right;
-  width: 75%!important;
+  width: 87%!important;
   color: white!important;
+}
+
+.gov > div > div > div > div {
+  color: white!important
 }
 
 .equity-percentage {
@@ -174,9 +180,32 @@ body {
   margin-bottom: 15px!important;
 }
 
+.sub-label {
+  color: #bfbfbf!important;
+  display: block;
+  font-size: 13px;
+  font-style: italic;
+}
+
 .input-text > div {
   color: white!important;
+  width: 100%!important;
 }
+
+.input-text > div > div {
+  color: #bfbfbf!important;
+  font-style: italic;
+}
+
+.coin-inputs > div {
+  width: 100%!important;
+}
+
+.coin-inputs > div > div {
+  color: #bfbfbf!important;
+  font-style: italic;
+}
+
 
 input {
   color: white!important;
