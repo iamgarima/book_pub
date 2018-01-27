@@ -362,5 +362,6 @@ select {
 .inner-head h2 {
   color: white;
   margin-top: 12px;
+  margin-bottom: 0;
   margin-right: 40px;
 }
