@@ -9,8 +9,11 @@ class MainComponent extends Component {
     return (
       <div className="App">
         <div className="App-first">
+          <div className="img-div">
+            <img src={ require('../images/main.jpg') } />
+          </div>  
           <h1>Book Pub</h1>
-          <p>A framework to help you publish your book</p>
+          <p>DIY Book Publishing Through Blockchain</p>
           <button>
             <Link to="/coinsetup">Publish Your Book</Link>
           </button>
@@ -22,11 +25,15 @@ class MainComponent extends Component {
           </div>
           <div className="App-sub-second">
             <img src="http://via.placeholder.com/150x350" />
-            <p>Users buy these coins to buy your book and invest</p>
+            <p>Users purchase coins to receive book and as investment</p>
           </div>
           <div className="App-sub-second">
             <img src="http://via.placeholder.com/150x350" />
             <p>You get money to publish your book</p>
+          </div>
+          <div className="App-sub-second">
+            <img src="http://via.placeholder.com/150x350" />
+            <p>Investors get portion of future sales & deals</p>
           </div>
         </div>
         {/* <Footer /> */}
