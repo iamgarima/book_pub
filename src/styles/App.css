@@ -291,7 +291,7 @@ select {
 .top-bar {
   height: 50px;
   color: white;
-  background-color: #7986cb;
+  background-color: #6C67BC;
   padding-left: 10px;
   position: absolute;
   top: 0;
@@ -314,7 +314,7 @@ select {
 }
 
 .details {
-  border: 10px solid #7986cb;
+  border: 10px solid #6C67BC;
   padding: 10px;
 }
 
@@ -341,7 +341,7 @@ select {
 }
 
 .in-buttons {
-  background-color: #7986cb; 
+  background-color: #6C67BC; 
 }
 
 .in-button {
@@ -367,10 +367,12 @@ select {
   outline: none;
   border-color: transparent;
   padding: 8px 15px;
-  margin-left: 60px;
+  margin-left: 20px;
+  width: 30%!important;
   margin-top: 30px;
-  background-color: #7986cb;
+  background-color: #6C67BC;
   color: white;
+  border-radius: 2px;
 }
 
 .last-one {
