@@ -12,11 +12,11 @@ class User extends Component {
   render() {
       return (
         <div className="user">
-            <div className="user-top">
+            {/* <div className="user-top">
                 <p>Crowdfunding Goal: XXX</p>
                 <p>Coins To Be Minted: XXX</p>
                 <p>Sale End Date: DD-MM-YYYY</p>
-            </div>
+            </div> */}
             <div className="user-input-box">
                 <h2>User Invitation Request</h2>
                 <div className="user-input">
@@ -29,11 +29,13 @@ class User extends Component {
                       <TableHeader displaySelectAll={false} adjustForCheckbox={false}>
                         <TableRow>
                             <TableHeaderColumn>Invite ETA</TableHeaderColumn>
-                            <TableHeaderColumn>Equity Share Estimate</TableHeaderColumn>
+                            <TableHeaderColumn>Equity Share Estimate    </TableHeaderColumn>
+                            <TableHeaderColumn>Tokens</TableHeaderColumn>
                         </TableRow>
                         </TableHeader>
                         <TableBody displayRowCheckbox={false}>
                             <TableRow>
+                                <TableRowColumn>XX</TableRowColumn>
                                 <TableRowColumn>XX</TableRowColumn>
                                 <TableRowColumn>XX</TableRowColumn>
                             </TableRow>
