@@ -224,8 +224,9 @@ select {
   height: 50px;
   color: white;
   background-color: #7986cb;
-  padding-top: 5px;
   padding-left: 10px;
+  position: absolute;
+  top: 0;
 }
 
 .public-coin {
@@ -238,9 +239,9 @@ select {
 
 .equity-ratios {
   display: inline-block;
-  width: 40%;
+  width: 34%;
   margin-top: 100px;
-  margin-left: 30px;
+  margin-left: 50px;
   vertical-align: top;
 }
 
@@ -307,4 +308,20 @@ select {
 .last-one {
   float: right;
   margin-right: 10px;
+}
+
+.outer-head {
+  width: 100vw;
+  height: 50px;
+  background-color: #7986cb;
+}
+
+.inner-head {
+  float: right;
+}
+
+.inner-head h2 {
+  color: white;
+  margin-top: 12px;
+  margin-right: 40px;
 }
