@@ -31,11 +31,11 @@ class Dashboard extends Component {
                         </div>
                     </div>
                     <div className="in-buttons">
-                        <button>Funding Goal</button>
-                        <button>Users To Admit</button>
-                        <button>Amount</button>
-                        <button>Sale Start</button>
-                        <button>Sale End</button>
+                        <input type="submit" value="Funding Goal" />
+                        <input type="submit" value="Users To Admit" />
+                        <input type="submit" value="Amount" />
+                        <input type="submit" value="Sale Start" />
+                        <input type="submit" value="Sale End" />
                         <Link to="/user">
                           <button className="last-one">Start Funding Round</button>
                         </Link>
