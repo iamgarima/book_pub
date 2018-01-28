@@ -20,19 +20,19 @@ class MainComponent extends Component {
         </div>
         <div className="App-second">
           <div className="App-sub-second">
-            <img src="http://via.placeholder.com/150x350" />
+            <img src={ require("../images/coins (2).png") } />
             <p>Create your Book Pub coin</p>
           </div>
           <div className="App-sub-second">
-            <img src="http://via.placeholder.com/150x350" />
+            <img src={ require("../images/investment.png") } />
             <p>Users purchase coins to receive book and as investment</p>
           </div>
           <div className="App-sub-second">
-            <img src="http://via.placeholder.com/150x350" />
+            <img src={ require("../images/money.png") } />
             <p>You get money to publish your book</p>
           </div>
           <div className="App-sub-second">
-            <img src="http://via.placeholder.com/150x350" />
+            <img src={ require("../images/pie-chart.png") } />
             <p>Investors get portion of future sales & deals</p>
           </div>
         </div>
