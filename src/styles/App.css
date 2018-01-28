@@ -71,7 +71,7 @@ body {
   margin-top: 0;
   opacity: 1;
   z-index: 1000;
-  text-shadow: 0 0 15px rgba(0,0,0,0.1);
+  text-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
 .App-first p {
@@ -81,7 +81,7 @@ body {
   text-align: center;
   color: black;
   padding-bottom: 70px;
-  text-shadow: 0 0 15px rgba(0,0,0,0.1);
+  text-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
 .App-first button {
