@@ -33,6 +33,7 @@ class Dashboard extends Component {
                     <div className="in-buttons">
                         <button>Funding Goal</button>
                         <button>Users To Admit</button>
+                        <button>Amount</button>
                         <button>Sale Start</button>
                         <button>Sale End</button>
                         <Link to="/user">

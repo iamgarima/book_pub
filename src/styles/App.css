@@ -142,7 +142,7 @@ body {
 .coin-setup h2 {
   text-align: center;
   font-size: 45px;
-  padding-top: 60px;
+  padding-top: 40px;
   font-weight: normal;
 }
 
@@ -350,8 +350,8 @@ select {
 }
 
 .in-buttons button {
-  padding: 8px 15px;
-  margin-left: 10px;
+  padding: 8px 8px;
+  margin-left: 8px;
   margin-bottom: 10px;
   background-color: white!important;
 }
@@ -367,8 +367,8 @@ select {
   font-size: 16px;
   outline: none;
   border-color: transparent;
-  padding: 8px 15px;
-  margin-left: 20px;
+  padding: 8px 14px;
+  margin-left: 15px;
   width: 30%!important;
   margin-top: 30px;
   background-color: #6C67BC;
@@ -378,7 +378,7 @@ select {
 
 .last-one {
   float: right;
-  margin-right: 10px;
+  margin-right: 8px;
 }
 
 .outer-head {
